@@ -1,0 +1,6 @@
+f=open("abc.txt", "w")
+f.write("Welcome\n")
+f.write("to\n")
+f.write("python files section\n")
+print("Data written to the file successfully")
+f.close()

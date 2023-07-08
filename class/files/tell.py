@@ -1,0 +1,21 @@
+f = open("t.txt", 'r')
+print(f.tell())
+print(f.read(2))
+print(f.tell())
+print(f.read(4))
+print(f.tell())
+
+data = "Python language is excellent"
+f = open("def.txt", "w")
+f.write(data)
+with open("def.txt", "r+") as f:
+    text = f.read()
+    print(text)
+    print("The Current Cursor Position: ", f.tell())
+    f.seek(24)
+    print("The Current Cursor Position: ", f.tell())
+    f.write("Britannia Bisket")
+    f.seek(0)
+    text = f.read()
+    print("Data After Modification:")
+    print(text)
