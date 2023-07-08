@@ -1,6 +1,6 @@
 
 import openai
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 
 context = "Albert Einstein was a German-born theoretical physicist who developed the theory of relativity."
 question = "Where was Albert Einstein born?"

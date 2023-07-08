@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 
 
 def convert_text_to_speech(text):
