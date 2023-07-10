@@ -33,7 +33,7 @@ l = L()
 l.m2()
 
 
-class Number():
+class Number:
     def __init__(self, num):
         self.num = num
 
