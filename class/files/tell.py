@@ -15,7 +15,7 @@ with open("def.txt", "r+") as f:
     f.seek(24)
     print("The Current Cursor Position: ", f.tell())
     f.write("Britannia Bisket")
-    f.seek(0)
+    f.seek(__offset=0)
     text = f.read()
     print("Data After Modification:")
     print(text)
